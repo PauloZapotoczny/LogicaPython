@@ -1,9 +1,10 @@
 x: int
 soma: int
 
+N = int(input("Quantos numeros serão digitados? "))
+
 soma = 0
-x = int(input("Digite o primeiro numero: "))
-for i in range(0, 3):
+for i in range(0, N):
     x = int(input("Digite um numero: "))
     soma = soma + x
 
